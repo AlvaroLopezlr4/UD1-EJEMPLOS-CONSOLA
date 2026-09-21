@@ -10,6 +10,15 @@ namespace UD1_EJ4_INTERFACES
     {
         static void Main(string[] args)
         {
+            IVehicle car1 = new Car();
+            Car car2 = new Car();
+            IVehicle motorbike1 = new MotorBike();
+
+            car1.Start();
+
+            car2.Acelerate();
+
+            motorbike1.Stop();
         }
     }
 }
