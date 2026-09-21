@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{10EB97E9-1423-46BC-B6BE-B2FD2F4032F5}</ProjectGuid>
+    <ProjectGuid>{4CB63743-A7E3-4CB8-94FA-42DC403FCD2A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UD1_EJ2_CLASE</RootNamespace>
-    <AssemblyName>UD1-EJ2-CLASE</AssemblyName>
+    <RootNamespace>UD1_EJ4_INTERFACES</RootNamespace>
+    <AssemblyName>UD1-EJ4-INTERFACES</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Worker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
